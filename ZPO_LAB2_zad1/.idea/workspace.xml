@@ -2,26 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a058618-4065-4d65-90ec-d298a9c5c868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZPO_LAB2_zad1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookDustCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookWithAutograph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookWithHardCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookWithSimpleCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Publication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WrongUsageOfBookDecoratorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/HistoricalNovel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/HistoricalNovelPublishingHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Poem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/PoemPublishingHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/PublishingHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Thriller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ThrillerPublishingHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookDustCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookDustCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookWithAutograph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookWithAutograph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookWithHardCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookWithHardCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookWithSimpleCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookWithSimpleCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookDecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Publication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrongUsageOfBookDecoratorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/WrongUsageOfBookDecoratorException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,14 +98,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2548" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="3201" />
+          <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="34" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
@@ -117,17 +116,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="490">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MainTest.java">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="119" column="9" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+            <state relative-caret-position="589">
+              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,49 +138,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BookWithAutograph.java">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/PublishingHouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/HistoricalNovelPublishingHouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BookDustCover.java">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/ThrillerPublishingHouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BookWithHardCover.java">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/PoemPublishingHouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BookWithSimpleCover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -212,14 +214,28 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/WrongUsageOfBookDecoratorException.java" />
         <option value="$PROJECT_DIR$/src/BookCoverWrapper.java" />
-        <option value="$PROJECT_DIR$/src/Book.java" />
         <option value="$PROJECT_DIR$/src/BookDecorator.java" />
         <option value="$PROJECT_DIR$/src/BookWithHardCover.java" />
         <option value="$PROJECT_DIR$/src/BookWithSimpleCover.java" />
         <option value="$PROJECT_DIR$/src/BookDustCover.java" />
         <option value="$PROJECT_DIR$/src/BookWithAutograph.java" />
         <option value="$PROJECT_DIR$/src/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/Book.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/BookDecorator.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/BookWithHardCover.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/BookDustCover.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/BookWithAutograph.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/BookWithSimpleCover.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/BookDecoratorTest.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/Thriller.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/Poem.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/HistoricalNovel.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/HistoricalNovelPublishingHouse.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/ThrillerPublishingHouse.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/PoemPublishingHouse.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/PublishingHouse.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -253,6 +269,12 @@
               <item name="ZPO_LAB2_zad1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ZPO_LAB2_zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZPO_LAB2_zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +290,7 @@
     <property name="SearchEverywhereHistoryKey" value="Decorator&#9;null&#9;null&#10;decorator&#9;PSI&#9;JAVA://sun.font.ExtendedTextSourceLabel#decorator" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554335047604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554393962843" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -300,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="JUnit.AbstractFactoryTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ZPO_LAB2_zad1" />
@@ -311,20 +333,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AbstractFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ZPO_LAB2_zad1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AbstractFactory" />
+      <option name="MAIN_CLASS_NAME" value="AbstractFactory.AbstractFactoryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDecoratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZPO_LAB2_zad1" />
+      <option name="PACKAGE_NAME" value="Decorator" />
+      <option name="MAIN_CLASS_NAME" value="Decorator.BookDecoratorTest" />
       <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.shouldReturnExceptionWhileUsingCoverDecoratorAgain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDecoratorTest.shouldReturnExceptionWhileUsingCoverDecoratorAgain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ZPO_LAB2_zad1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="PACKAGE_NAME" value="Decorator" />
+      <option name="MAIN_CLASS_NAME" value="Decorator.BookDecoratorTest" />
       <option name="METHOD_NAME" value="shouldReturnExceptionWhileUsingCoverDecoratorAgain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -333,14 +369,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.MainTest.shouldReturnExceptionWhileUsingCoverDecoratorAgain" />
+      <item itemvalue="JUnit.BookDecoratorTest" />
+      <item itemvalue="JUnit.BookDecoratorTest.shouldReturnExceptionWhileUsingCoverDecoratorAgain" />
+      <item itemvalue="JUnit.AbstractFactoryTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.AbstractFactoryTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MainTest.shouldReturnExceptionWhileUsingCoverDecoratorAgain" />
+        <item itemvalue="JUnit.BookDecoratorTest" />
+        <item itemvalue="JUnit.BookDecoratorTest.shouldReturnExceptionWhileUsingCoverDecoratorAgain" />
       </list>
     </recent_temporary>
   </component>
@@ -357,29 +395,19 @@
       <workItem from="1554021637933" duration="2185000" />
       <workItem from="1554058052731" duration="5667000" />
       <workItem from="1554130431280" duration="258000" />
-      <workItem from="1554130881969" duration="24807000" />
+      <workItem from="1554130881969" duration="30811000" />
     </task>
+    <task id="LOCAL-00001" summary="Laboratorium 2 zakończone (Zad: 1, czesc pierwsza &quot;Dekorator&quot;)">
+      <created>1554335312827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554335312828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2019.04.04 at 00h 50m 28s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.04.04 at 00h 51m 39s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.04.04 at 00h 51m 54s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.04.04 at 00h 52m 35s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.04.04 at 01h 24m 12s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.04.04 at 01h 25m 41s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest - 2019.04.04 at 01h 26m 32s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
@@ -392,9 +420,27 @@
     <history-entry file="MainTest - 2019.04.04 at 01h 42m 34s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BookDecoratorTest - 2019.04.04 at 01h 59m 29s.xml">
+      <configuration name="BookDecoratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDecoratorTest - 2019.04.04 at 02h 07m 33s.xml">
+      <configuration name="BookDecoratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFactoryTest - 2019.04.04 at 02h 14m 54s.xml">
+      <configuration name="AbstractFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFactoryTest - 2019.04.04 at 17h 50m 42s.xml">
+      <configuration name="AbstractFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFactoryTest - 2019.04.04 at 17h 51m 08s.xml">
+      <configuration name="AbstractFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFactoryTest - 2019.04.04 at 17h 55m 13s.xml">
+      <configuration name="AbstractFactoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32917000" />
+    <option name="totallyTimeSpent" value="38921000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,8 +463,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32834226" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2620321" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18502674" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,6 +491,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Laboratorium 2 zakończone (Zad: 1, czesc pierwsza &quot;Dekorator&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laboratorium 2 zakończone (Zad: 1, czesc pierwsza &quot;Dekorator&quot;)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/font/ExtendedTextSourceLabel.class">
@@ -480,17 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WrongUsageOfBookDecoratorException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/ExpectException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -498,88 +538,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Publication.java">
+    <entry file="file://$PROJECT_DIR$/src/Decorator/WrongUsageOfBookDecoratorException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/Book/Publication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BookWithSimpleCover.java">
+    <entry file="file://$PROJECT_DIR$/src/Decorator/BookDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BookDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" selection-start-line="30" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BookWithHardCover.java">
+    <entry file="file://$PROJECT_DIR$/src/Decorator/BookWithHardCover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/BookDustCover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/BookWithAutograph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/BookWithSimpleCover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/BookDecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BookDustCover.java">
+    <entry file="file://$PROJECT_DIR$/src/Book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BookWithAutograph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="490">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainTest.java">
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Poem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="119" column="9" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Thriller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/HistoricalNovel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/ThrillerPublishingHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/PoemPublishingHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/HistoricalNovelPublishingHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/PublishingHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

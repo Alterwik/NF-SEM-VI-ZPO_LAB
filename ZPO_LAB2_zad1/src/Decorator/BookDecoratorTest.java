@@ -1,9 +1,12 @@
+package Decorator;
+
+import Book.Publication;
+import Book.Book;
+import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.rules.ExpectedException;
 
-import static org.junit.Assert.*;
-
-public class MainTest {
+public class BookDecoratorTest {
 
     Publication kTester = new Book(
             "Adam Mickiewicz",
@@ -12,14 +15,14 @@ public class MainTest {
 
     @org.junit.Test
     public void shouldReturnCorrectValuesOfGetters() {
-        assertEquals(kTester.getAuthor(), "Adam Mickiewicz");
-        assertEquals(kTester.getNumberOfPages(), 340);
-        assertEquals(kTester.getTitle(), "Pan Tadeusz");
+        Assert.assertEquals(kTester.getAuthor(), "Adam Mickiewicz");
+        Assert.assertEquals(kTester.getNumberOfPages(), 340);
+        Assert.assertEquals(kTester.getTitle(), "Pan Tadeusz");
     }
 
     @org.junit.Test
     public void shouldReturnCorrectString() {
-        assertEquals(kTester.toString(),"| Adam Mickiewicz | Pan Tadeusz | 340");
+        Assert.assertEquals(kTester.toString(),"| Adam Mickiewicz | Pan Tadeusz | 340");
     }
 
     @org.junit.Test
@@ -30,7 +33,7 @@ public class MainTest {
         } catch (WrongUsageOfBookDecoratorException e) {
             e.printStackTrace();
         }
-        assertEquals(kkTester.toString(),"| Adam Mickiewicz | Pan Tadeusz | 340 | Okładka zwykła |");
+        Assert.assertEquals(kkTester.toString(),"| Adam Mickiewicz | Pan Tadeusz | 340 | Okładka zwykła |");
     }
 
     @Rule
@@ -53,7 +56,7 @@ public class MainTest {
         } catch (WrongUsageOfBookDecoratorException e) {
             e.printStackTrace();
         }
-        assertEquals(kkkTester.toString(),"| Adam Mickiewicz | Pan Tadeusz | 340 | Okładka zwykła | Z obwolutą |");
+        Assert.assertEquals(kkkTester.toString(),"| Adam Mickiewicz | Pan Tadeusz | 340 | Okładka zwykła | Z obwolutą |");
     }
 
     @Rule
@@ -106,10 +109,10 @@ public class MainTest {
             Publication kkTester = new BookWithHardCover(kTester);
             Publication kkkTester = new BookDustCover(kkTester);
             Publication kkkkTester = new BookWithAutograph(kkkTester, "Drogiej Hani - Adam Mickiewicz");
-            assertEquals(kkkkTester.getAuthor(), "Adam Mickiewicz");
-            assertEquals(kkkkTester.getNumberOfPages(), 340);
-            assertEquals(kkkkTester.getTitle(), "Pan Tadeusz");
-            assertEquals(kkkkTester.toString(),
+            Assert.assertEquals(kkkkTester.getAuthor(), "Adam Mickiewicz");
+            Assert.assertEquals(kkkkTester.getNumberOfPages(), 340);
+            Assert.assertEquals(kkkkTester.getTitle(), "Pan Tadeusz");
+            Assert.assertEquals(kkkkTester.toString(),
                     "| Adam Mickiewicz | Pan Tadeusz | 340 | Okładka twarda |" +
                             " Z obwolutą | Drogiej Hani - Adam Mickiewicz |");
         } catch (WrongUsageOfBookDecoratorException e) {

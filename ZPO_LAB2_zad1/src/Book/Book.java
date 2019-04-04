@@ -1,3 +1,5 @@
+package Book;
+
 public class Book implements Publication {
 
     private String mAuthor;
@@ -32,17 +34,5 @@ public class Book implements Publication {
                 " | " + mNumberOfPages;
     }
 
-    /*
-    public void setAuthor(String mAuthor) {
-    this.mAuthor = mAuthor;
-    }
 
-    public void setTitle(String mTitle) {
-    this.mTitle = mTitle;
-    }
-
-    public void setNumberOfPages(int mNumberOfPages) {
-    this.mNumberOfPages = mNumberOfPages;
-    }
-    */
 }

@@ -1,3 +1,7 @@
+package Decorator;
+
+import Book.Publication;
+
 public class BookWithHardCover extends BookDecorator{
 
     public BookWithHardCover(Publication decoratedPublication) throws WrongUsageOfBookDecoratorException {

@@ -1,3 +1,11 @@
+import AbstractFactory.PublishingHouse;
+import Book.Book;
+import Book.Publication;
+import Decorator.BookDustCover;
+import Decorator.BookWithHardCover;
+import Decorator.BookWithSimpleCover;
+import Decorator.WrongUsageOfBookDecoratorException;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -21,28 +29,38 @@ public class Main {
             System.out.println(kk2.getAuthor());
 
 //            error
-//            Publication kkk2err = new BookWithSimpleCover(kk2);
+//            Book.Publication kkk2err = new Decorator.BookWithSimpleCover(kk2);
 //            System.out.println(kkk2err);
 
             Publication kkk3 = new BookDustCover(kk1);
             System.out.println(kkk3);
 
 //            errpr
-//            Publication kkkk3err = new BookWithHardCover(kkk3);
+//            Book.Publication kkkk3err = new Decorator.BookWithHardCover(kkk3);
 //            System.out.println(kkkk3err);
 
 //            error
-//            Publication kkkk4err = new BookDustCover(kkk3);
+//            Book.Publication kkkk4err = new Decorator.BookDustCover(kkk3);
 //            System.out.println(kkkk4err);
 
 //            error
-//            Publication kderr = new BookDustCover(k1);
+//            Book.Publication kderr = new Decorator.BookDustCover(k1);
 //            System.out.println(kderr);
 
-// Pozostała funkcjonalność w MainTest.java
+// Pozostała funkcjonalność w Decorator.BookDecoratorTest.java
 
         }catch(WrongUsageOfBookDecoratorException e){
             e.printStackTrace();
         }
+
+        System.out.println("------------------------------------------------------------------");
+
+
+        //Użycie:
+        PublishingHouse w = PublishingHouse.getInstance("Józef Ignacy Kraszewski");
+/* W zależności od autora wybieramy odpowiednie wydawnictwo. Wpisać kilka wariantów.
+Tu powstanie wydawnictwo powieści historycznych */
+        Book k = w.createBook("Masław", 280);
+        /* Tworzy książkę klasy PowiescHistoryczna z podanym tytułem i liczbą stron. Autor przekazany będzie z wydawnictwa */
     }
 }

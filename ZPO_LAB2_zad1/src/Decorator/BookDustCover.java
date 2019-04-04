@@ -1,3 +1,7 @@
+package Decorator;
+
+import Book.Publication;
+
 public class BookDustCover extends BookDecorator{
     public BookDustCover(Publication decoratedPublication) throws WrongUsageOfBookDecoratorException {
         super(decoratedPublication);
@@ -9,8 +13,8 @@ public class BookDustCover extends BookDecorator{
             updateMembers();
             if(((BookDecorator) decoratedPublication).hasDustCover == true){
                 throw new WrongUsageOfBookDecoratorException("wyjątek! Obwoluta może być tylko jedna");
-//            }else if (((BookDecorator) decoratedPublication).hasCover == false){
-//                throw new WrongUsageOfBookDecoratorException(
+//            }else if (((Decorator.BookDecorator) decoratedPublication).hasCover == false){
+//                throw new Decorator.WrongUsageOfBookDecoratorException(
 //                        "wyjątek! Nie można obłożyć obwolutą książki, która nie posiada okładki");
             }
         }

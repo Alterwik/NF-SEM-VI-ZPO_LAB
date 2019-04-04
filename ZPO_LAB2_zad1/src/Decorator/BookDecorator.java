@@ -1,3 +1,7 @@
+package Decorator;
+
+import Book.Publication;
+
 abstract class BookDecorator implements Publication {
 
     protected boolean hasCover;

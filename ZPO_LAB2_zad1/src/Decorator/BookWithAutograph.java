@@ -1,3 +1,7 @@
+package Decorator;
+
+import Book.Publication;
+
 public class BookWithAutograph extends BookDecorator{
 
     private String autograph;
