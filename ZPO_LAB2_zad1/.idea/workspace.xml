@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a058618-4065-4d65-90ec-d298a9c5c868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/HistoricalNovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/HistoricalNovelPublishingHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Poem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/PoemPublishingHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/PublishingHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Thriller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ThrillerPublishingHouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookDustCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookDustCover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookWithAutograph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookWithAutograph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookWithHardCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookWithHardCover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookWithSimpleCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookWithSimpleCover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/BookDecoratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrongUsageOfBookDecoratorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/WrongUsageOfBookDecoratorException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +72,7 @@
     <session id="692046287">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.opened" value="2" />
@@ -98,7 +80,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3201" />
+          <entry key="JAVA" value="3206" />
           <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
@@ -113,11 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="790">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            <state relative-caret-position="514">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractFactory/HistoricalNovelPublishingHouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#234#235#0" expanded="true" />
@@ -290,7 +272,7 @@
     <property name="SearchEverywhereHistoryKey" value="Decorator&#9;null&#9;null&#10;decorator&#9;PSI&#9;JAVA://sun.font.ExtendedTextSourceLabel#decorator" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554393962843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554394224669" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -395,7 +377,7 @@
       <workItem from="1554021637933" duration="2185000" />
       <workItem from="1554058052731" duration="5667000" />
       <workItem from="1554130431280" duration="258000" />
-      <workItem from="1554130881969" duration="30811000" />
+      <workItem from="1554130881969" duration="31283000" />
     </task>
     <task id="LOCAL-00001" summary="Laboratorium 2 zakończone (Zad: 1, czesc pierwsza &quot;Dekorator&quot;)">
       <created>1554335312827</created>
@@ -408,15 +390,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2019.04.04 at 01h 26m 32s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.04.04 at 01h 32m 06s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.04.04 at 01h 33m 34s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest - 2019.04.04 at 01h 42m 34s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
@@ -438,9 +411,18 @@
     <history-entry file="AbstractFactoryTest - 2019.04.04 at 17h 55m 13s.xml">
       <configuration name="AbstractFactoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AbstractFactoryTest - 2019.04.04 at 18h 03m 14s.xml">
+      <configuration name="AbstractFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFactoryTest - 2019.04.04 at 18h 05m 54s.xml">
+      <configuration name="AbstractFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFactoryTest - 2019.04.04 at 18h 06m 35s.xml">
+      <configuration name="AbstractFactoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38921000" />
+    <option name="totallyTimeSpent" value="39393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +435,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22100122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -464,7 +445,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2620321" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18502674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18502674" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,16 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Poem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -647,17 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/ThrillerPublishingHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractFactory/PoemPublishingHouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -669,10 +629,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/ThrillerPublishingHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractFactory/HistoricalNovelPublishingHouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
@@ -689,8 +660,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        <state relative-caret-position="514">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
