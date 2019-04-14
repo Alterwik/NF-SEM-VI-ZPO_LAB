@@ -1,48 +1,44 @@
 package AbstractFactory;
 
-import Book.Book;
 import Book.Publication;
 import org.junit.Assert;
 
 public class AbstractFactoryTest {
 
-    Publication kTester = new Book(
-            "Adam Mickiewicz",
-            "Pan Tadeusz",
-            340);
+    private static final String AUTHOR1 = "Józef Ignacy Kraszewski";
+    private static final String AUTHOR2 = "Jan Thriller";
+    private static final String AUTHOR3 = "Mieczysław Poem";
+    private static final int  PAGES1 = 280;
+    private static final int  PAGES2 = 285;
+    private static final int  PAGES3 = 180;
+    private static final String TITLE1 = "Masław";
+    private static final String TITLE2 = "Thriller";
+    private static final String TITLE3 = "Poem";
 
-    @org.junit.Test
-    public void shouldReturnCorrectValuesOfGetters() {
-        Assert.assertEquals(kTester.getAuthor(), "Adam Mickiewicz");
-        Assert.assertEquals(kTester.getNumberOfPages(), 340);
-        Assert.assertEquals(kTester.getTitle(), "Pan Tadeusz");
+
+    private void checkIfCorrectValuesAreReturned(String author, String title, int pages) {
+        PublishingHouse w = PublishingHouse.getInstance(author);
+        Publication k = w.createBook(title, pages);
+        Assert.assertEquals(k.getAuthor(), author);
+        Assert.assertEquals(k.getNumberOfPages(), pages);
+        Assert.assertEquals(k.getTitle(), title);
     }
 
     @org.junit.Test
     public void shouldReturnCorrectValuesOfGettersInHistoricalBookCreatedByFactory() {
-    PublishingHouse w = PublishingHouse.getInstance("Józef Ignacy Kraszewski");
-    Book k = w.createBook("Masław", 280);
-        Assert.assertEquals(k.getAuthor(), "Józef Ignacy Kraszewski");
-        Assert.assertEquals(k.getNumberOfPages(), 280);
-        Assert.assertEquals(k.getTitle(), "Masław");
+        checkIfCorrectValuesAreReturned(AUTHOR1, TITLE1, PAGES1);
     }
 
     @org.junit.Test
     public void shouldReturnCorrectValuesOfGettersInThrillerBookCreatedByFactory() {
-        PublishingHouse w = PublishingHouse.getInstance("Jan Thriller");
-        Book k = w.createBook("Thriller", 285);
-        Assert.assertEquals(k.getAuthor(), "Jan Thriller");
-        Assert.assertEquals(k.getNumberOfPages(), 285);
-        Assert.assertEquals(k.getTitle(), "Thriller");
+        checkIfCorrectValuesAreReturned(AUTHOR2, TITLE2, PAGES2);
     }
 
     @org.junit.Test
     public void shouldReturnCorrectValuesOfGettersInPoemBookCreatedByFactory() {
-        PublishingHouse w = PublishingHouse.getInstance("Mieczysław Poem");
-        Book k = w.createBook("Poem", 180);
-        Assert.assertEquals(k.getAuthor(), "Mieczysław Poem");
-        Assert.assertEquals(k.getNumberOfPages(), 180);
-        Assert.assertEquals(k.getTitle(), "Poem");
+        checkIfCorrectValuesAreReturned(AUTHOR3, TITLE3, PAGES3);
     }
+
+
 
 }

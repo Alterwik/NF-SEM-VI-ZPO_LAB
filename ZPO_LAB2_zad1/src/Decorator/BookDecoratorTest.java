@@ -1,14 +1,15 @@
 package Decorator;
 
-import Book.Publication;
 import Book.Book;
+import Book.Publication;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.rules.ExpectedException;
 
+
 public class BookDecoratorTest {
 
-    Publication kTester = new Book(
+    Publication kTester= new Book(
             "Adam Mickiewicz",
             "Pan Tadeusz",
             340);

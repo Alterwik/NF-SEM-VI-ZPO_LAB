@@ -2,7 +2,7 @@ package Decorator;
 
 import Book.Publication;
 
-public class BookDustCover extends BookDecorator{
+public class BookDustCover extends BookDecorator implements BookWithCover{
     public BookDustCover(Publication decoratedPublication) throws WrongUsageOfBookDecoratorException {
         super(decoratedPublication);
         if(decoratedPublication instanceof BookDustCover ) {
@@ -13,9 +13,6 @@ public class BookDustCover extends BookDecorator{
             updateMembers();
             if(((BookDecorator) decoratedPublication).hasDustCover == true){
                 throw new WrongUsageOfBookDecoratorException("wyjątek! Obwoluta może być tylko jedna");
-//            }else if (((Decorator.BookDecorator) decoratedPublication).hasCover == false){
-//                throw new Decorator.WrongUsageOfBookDecoratorException(
-//                        "wyjątek! Nie można obłożyć obwolutą książki, która nie posiada okładki");
             }
         }
         if(decoratedPublication instanceof Publication && !(decoratedPublication instanceof BookDecorator)){

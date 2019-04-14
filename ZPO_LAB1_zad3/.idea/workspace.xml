@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a058618-4065-4d65-90ec-d298a9c5c868" name="Default Changelist" comment="" />
+    <list default="true" id="0a058618-4065-4d65-90ec-d298a9c5c868" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB3_zad1/ZPO_LAB3_zad1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB3_zad1/src/Cyclist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB3_zad1/src/CyclistList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB3_zad1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/AbstractFactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/AbstractFactory/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookDecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookDecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookDustCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookDustCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithHardCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithHardCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithSimpleCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithSimpleCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,14 +77,23 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1414042186">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="390">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -73,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringToIntConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="360">
               <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
             </state>
           </provider>
@@ -87,6 +115,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,17 +134,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +161,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,17 +212,18 @@
       <workItem from="1554021637933" duration="2185000" />
       <workItem from="1554038294877" duration="3728000" />
       <workItem from="1554049197924" duration="4058000" />
+      <workItem from="1554643433788" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9971000" />
+    <option name="totallyTimeSpent" value="10054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18559219" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18742369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -198,7 +232,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25510204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25454545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,15 +273,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringToIntConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="360">
           <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="390">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>

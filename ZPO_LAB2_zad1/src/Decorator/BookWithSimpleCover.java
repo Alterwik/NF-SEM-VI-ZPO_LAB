@@ -2,11 +2,11 @@ package Decorator;
 
 import Book.Publication;
 
-public class BookWithSimpleCover extends BookDecorator{
+public class BookWithSimpleCover extends BookDecorator implements BookWithCover{
 
     public BookWithSimpleCover(Publication decoratedPublication) throws WrongUsageOfBookDecoratorException {
         super(decoratedPublication);
-        if(decoratedPublication instanceof BookWithHardCover || decoratedPublication instanceof BookWithSimpleCover) {
+        if(decoratedPublication instanceof BookWithCover) {
             throw new WrongUsageOfBookDecoratorException("wyjątek! Okładka może być tylko jedna");
         }
         if(decoratedPublication instanceof BookDecorator){

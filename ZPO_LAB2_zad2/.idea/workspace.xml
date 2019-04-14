@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a058618-4065-4d65-90ec-d298a9c5c868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZPO_LAB2_zad2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB3_zad1/ZPO_LAB3_zad1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB3_zad1/src/Cyclist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB3_zad1/src/CyclistList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZPO_LAB3_zad1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB1_zad3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB1_zad3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/AbstractFactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/AbstractFactory/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookDecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookDecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookDustCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookDustCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithHardCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithHardCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithSimpleCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZPO_LAB2_zad1/src/Decorator/BookWithSimpleCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +52,15 @@
     <session id="495532783">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="724" />
+          <entry key="JAVA" value="728" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -64,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+            <state relative-caret-position="405">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -119,7 +131,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,11 +179,13 @@
       <updated>1554021633388</updated>
       <workItem from="1554021637933" duration="2185000" />
       <workItem from="1554395678081" duration="3655000" />
+      <workItem from="1554545625622" duration="298000" />
+      <workItem from="1554643876422" duration="130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5840000" />
+    <option name="totallyTimeSpent" value="6268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,7 +200,7 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11965812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12087912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        <state relative-caret-position="405">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
