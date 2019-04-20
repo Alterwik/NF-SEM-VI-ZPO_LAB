@@ -1,0 +1,43 @@
+[
+  {
+    "id":"01",
+    "polishQuestion": "płakać",
+    "englishAnswers": [ "cry", "weep" ]
+  }, {
+    "id":"02",
+    "polishQuestion": "wrzeszczeć",
+    "englishAnswers": [ "yell", "shout", "cry", "scream" ]
+  }, {
+    "id":"03",
+    "polishQuestion": "tańczyć",
+    "englishAnswers": [ "dance", "boogie" ]
+  }, {
+    "id":"04",
+    "polishQuestion": "biegać",
+    "englishAnswers": [ "run", "bustle" ]
+  }, {
+    "id":"05",
+    "polishQuestion": "jeździć",
+    "englishAnswers": [ "drive", "ride", "travel" ]
+  }, {
+    "id":"06",
+    "polishQuestion": "samochód",
+    "englishAnswers": [ "car", "automobile" ]
+  }, {
+    "id":"07",
+    "polishQuestion": "samolot",
+    "englishAnswers": [ "airplane", "plane", "aeroplane", "aircraft" ]
+  }, {
+    "id":"08",
+    "polishQuestion": "jacht",
+    "englishAnswers": [ "yacht" ]
+  }, {
+    "id":"09",
+    "polishQuestion": "kuchnia",
+    "englishAnswers": [ "kitchen", "cooker", "cookery", "cuisine" ]
+  }, {
+    "id":"10",
+    "polishQuestion": "telefon",
+    "englishAnswers": [ "telephone", "phone", "call" ]
+  }
+]
