@@ -7,7 +7,7 @@ public class Main {
 
     Test t = new Test();
     t.initializeQuestionList(FILEPATH);
-    t.askQuestions(10);
+    t.askQuestions(5);
 
     }
 
